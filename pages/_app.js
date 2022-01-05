@@ -1,7 +1,15 @@
-import '../styles/globals.css'
+import Header from "../src/Components/Header";
+import React from "react";
+import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function MyApp({ Component }) {
+  const [menuActive, setMenuActive] = React.useState(false);
+  return (
+    <>
+      <Header setMenuActive={setMenuActive} menuActive={menuActive} />
+      <Component />
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;

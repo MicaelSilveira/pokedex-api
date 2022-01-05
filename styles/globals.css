@@ -1,7 +1,38 @@
 html,
 body {
-  padding: 0;
+  padding-top: 4rem;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.ativo {
+  color: black;
+  border: black solid 2px;
+  transition: 0.1s;
+}
+.buttonActive::after {
+  transform: rotate(90deg);
+  width: 5px;
+  margin-right: 20px;
+  height: 5px;
+  box-shadow: 0 15px currentColor, 0 -15px currentColor;
+}
+
+.animeLeft {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: animeLeft 0.5s forwards;
+}
+@keyframes animeLeft {
+  to {
+    opacity: initial;
+    transform: initial;
+  }
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
 }
