@@ -3,7 +3,7 @@ import styles from "./Header.module.css";
 import Image from "next/image";
 import logo from "../assets/Pokedex.svg";
 import HeaderMenu from "./HeaderMenu";
-const Header = ({ menuActive, setMenuActive }) => {
+const Header = ({ menuActive, setMenuActive, setFeedList }) => {
   function HandleClick({ target }) {
     target.classList.toggle("buttonActive");
     setMenuActive((state) => !state);
@@ -19,7 +19,7 @@ const Header = ({ menuActive, setMenuActive }) => {
       <div className={styles.buttonContainer} onClick={HandleClick}>
         <button className={`${styles.buttonMenu}`}></button>
       </div>
-      {menuActive && <HeaderMenu />}
+      {menuActive && <HeaderMenu setFeedList={setFeedList} />}
     </header>
   );
 };

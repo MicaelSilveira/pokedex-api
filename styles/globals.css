@@ -1,9 +1,10 @@
 html,
 body {
-  padding-top: 4rem;
+  padding-top: 3.5rem;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: darkgrey;
 }
 .ativo {
   color: black;
@@ -21,7 +22,7 @@ body {
 .animeLeft {
   opacity: 0;
   transform: translateX(-20px);
-  animation: animeLeft 0.5s forwards;
+  animation: animeLeft 1s forwards;
 }
 @keyframes animeLeft {
   to {
@@ -29,7 +30,71 @@ body {
     transform: initial;
   }
 }
-
+#grass {
+  background: green;
+}
+#fire {
+  background: red;
+}
+#water {
+  background: rgb(3, 83, 255);
+}
+#bug {
+  background: greenyellow;
+}
+#normal {
+  background: grey;
+}
+#poison {
+  background: darkmagenta;
+}
+#electric {
+  background: yellow;
+}
+#ground {
+  background: rgb(172, 132, 25);
+}
+#fighting {
+  background: rgb(167, 37, 37);
+}
+#rock {
+  background: rgb(112, 100, 37);
+}
+#flying {
+  background: rgb(91, 153, 216);
+}
+#ghost {
+  background: darkslateblue;
+}
+#ice {
+  background: darkturquoise;
+}
+#dragon {
+  background: indigo;
+}
+#dark {
+  background: rgb(41, 36, 14);
+}
+#fairy {
+  background: rgb(212, 137, 137);
+}
+#steel {
+  background: dimgray;
+}
+#psychic {
+  background: rgb(255, 167, 167);
+}
+.animeDown {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: animeDown 1s forwards;
+}
+@keyframes animeDown {
+  to {
+    opacity: initial;
+    transform: initial;
+  }
+}
 li {
   list-style: none;
 }
