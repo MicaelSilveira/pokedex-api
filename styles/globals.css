@@ -14,7 +14,7 @@ body {
 .buttonActive::after {
   transform: rotate(90deg);
   width: 5px;
-  margin-right: 20px;
+  margin-right: 5px;
   height: 5px;
   box-shadow: 0 15px currentColor, 0 -15px currentColor;
 }
