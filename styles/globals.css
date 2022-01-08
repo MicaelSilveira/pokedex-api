@@ -16,7 +16,7 @@ body {
   width: 5px;
   margin-right: 5px;
   height: 5px;
-  box-shadow: 0 15px currentColor, 0 -15px currentColor;
+  box-shadow: 0 15px currentColor, 0 30px currentColor;
 }
 
 .animeLeft {
