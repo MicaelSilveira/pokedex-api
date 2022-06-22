@@ -10,7 +10,15 @@ const Header = ({ menuActive, setMenuActive, setFeedList }) => {
   }
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>
+      <div
+        className={styles.logo}
+        onClick={() =>
+          scrollTo({
+            top: 0,
+            behavior: "smooth",
+          })
+        }
+      >
         <div className={styles.logoIMG}>
           <Image src={logo} />
         </div>

@@ -17,14 +17,14 @@ const HeaderMenu = ({ setFeedList }) => {
   return (
     <div className={`${styles.menu} animeDown`}>
       <ul className={`${styles.menuList} animeLeft`} onClick={handleClick}>
-        <li data-feed="1,100">1-Geraçao</li>
-        <li data-feed="100,200">2-Geraçao</li>
-        <li data-feed="200,300">3-Geraçao</li>
-        <li data-feed="300,400">4-Geraçao</li>
-        <li data-feed="400,500">5-Geraçao</li>
-        <li data-feed="500,600">6-Geraçao</li>
-        <li data-feed="600,700">7-Geraçao</li>
-        <li data-feed="700,800">8-Geraçao</li>
+        <li data-feed="1,100">1-Geração</li>
+        <li data-feed="100,200">2-Geração</li>
+        <li data-feed="200,300">3-Geração</li>
+        <li data-feed="300,400">4-Geração</li>
+        <li data-feed="400,500">5-Geração</li>
+        <li data-feed="500,600">6-Geração</li>
+        <li data-feed="600,700">7-Geração</li>
+        <li data-feed="700,800">8-Geração</li>
       </ul>
     </div>
   );

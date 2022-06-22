@@ -1,5 +1,5 @@
 .header {
-  background-color: #333;
+  background-color: #200122;
   color: white;
   height: 7rem;
   position: fixed;
@@ -12,7 +12,7 @@
   cursor: pointer;
   font-size: 15px;
   font-family: monospace, Arial, Helvetica, sans-serif;
-  background-color: tomato;
+  background-color: #240b36;
   height: 4rem;
   text-align: center;
   width: 200px;
@@ -24,7 +24,7 @@
   align-items: center;
 }
 .logo:hover {
-  background: red;
+  background: #fc466b;
 }
 .logo h1 {
   margin-right: 10px;
@@ -41,7 +41,7 @@
   margin-right: 10px;
 }
 .buttonMenu {
-  background: tomato;
+  background: #fc466b;
   border-radius: 5px;
   height: 50px;
   width: 50px;
@@ -54,7 +54,7 @@
   transition: 0.2s;
 }
 .buttonMenu:hover {
-  background: red;
+  background: #c31432;
 }
 .buttonMenu::after {
   transition: 0.2s;

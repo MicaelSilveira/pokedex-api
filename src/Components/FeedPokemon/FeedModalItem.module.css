@@ -1,7 +1,8 @@
 .modalItem {
   display: flex;
-  height: 36rem;
+  height: 36.3rem;
   margin-top: 10px;
+  outline: #eee solid 10px;
 }
 @media (max-width: 42rem) {
   .modalItem {
@@ -13,9 +14,10 @@
 .descriçao {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(#333, red);
+  background: linear-gradient(#6a82fb, black);
   max-width: 300px;
   color: black;
+  border-left: black solid 1px;
 }
 .title {
   width: 300px;
@@ -29,7 +31,7 @@
 .img {
   transition: 0.5s;
   width: 300px;
-  background: #333;
+  background: linear-gradient(#6a82fb, black);
 }
 .img img {
   max-width: 300px;

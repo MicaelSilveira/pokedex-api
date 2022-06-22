@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  background: #333;
+  background: #200122;
   right: 0px;
   top: 7rem;
   width: 130px;
@@ -20,7 +20,7 @@
 }
 .menuList li {
   cursor: pointer;
-  background: tomato;
+  background: #240b36;
   height: 30px;
   width: 80px;
   text-align: center;
@@ -34,5 +34,6 @@
   margin: 5px;
 }
 .menuList li:hover {
-  background: red;
+  background: #fc466b;
+  color: white;
 }

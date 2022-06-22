@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Loading.module.css";
-const Loading = () => {
+export const Loading = () => {
   return (
-    <div className={`${styles.loading} animeDown`}>
-      <h1>Aguarde... </h1>
+    <div className={styles.container}>
+      <div className={styles.loader}></div>
     </div>
   );
 };

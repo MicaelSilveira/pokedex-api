@@ -24,7 +24,7 @@ const FeedModalItem = ({ data }) => {
           <img src={urlIMGshiny} alt={data.name} className="animeDown" />
         </div>
       </div>
-      <div className={`${styles.descriçao} animeDown`}>
+      <div className={`${styles.descriçao} animeLeft`}>
         <div className={styles.title}>
           <h1>
             N: {data.id} - {data.name.toUpperCase()}

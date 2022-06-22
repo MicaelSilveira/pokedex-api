@@ -7,10 +7,10 @@
   align-items: center;
 }
 .title {
-  color: #333;
+  color: white;
   font-family: monospace;
   font-size: 30px;
-  background: gray;
+  background: #240b36;
   width: 300px;
   border-radius: 10px;
   height: 50px;

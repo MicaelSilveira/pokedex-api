@@ -4,11 +4,21 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background: darkgrey;
+  background: #3494e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ec6ead,
+    #3494e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ec6ead,
+    #3494e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .ativo {
-  color: black;
-  border: black solid 2px;
+  color: #fc466b;
+  border: #fc466b solid 2px;
   transition: 0.1s;
 }
 .buttonActive::after {
@@ -22,7 +32,7 @@ body {
 .animeLeft {
   opacity: 0;
   transform: translateX(-20px);
-  animation: animeLeft 1s forwards;
+  animation: animeLeft 0.5s forwards;
 }
 @keyframes animeLeft {
   to {
@@ -86,7 +96,7 @@ body {
 }
 .animeDown {
   opacity: 0;
-  transform: translateY(-20px);
+  transform: scale(1.1);
   animation: animeDown 1s forwards;
 }
 @keyframes animeDown {

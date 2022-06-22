@@ -1,5 +1,5 @@
 .contentItem {
-  background: linear-gradient(red, #333);
+  background: linear-gradient(#6a82fb, #333);
   margin: 15px;
   width: 300px;
   height: 300px;
@@ -16,7 +16,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #333;
+  background: #0f2027;
   height: 300px;
   color: white;
   font-size: 25px;
@@ -41,5 +41,6 @@
 }
 
 .contentItem:hover {
-  background: repeating-linear-gradient(red, tomato);
+  transition: 0.2s;
+  border: white solid 5px;
 }
